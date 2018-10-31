@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentKehidupan">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtkehidupan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                  untuk kamu yang disana\n\n
+iya kamu yang sedang tersenyum\n
+tetapi bukan denganku\n
+apa kabar kamu,\n
+tentu pastinya kamu bahagia karna kamu tersenyum\n
+hmmm...\n
+kamu ga mau nanya kabar aku ?\n
+hehehe sudah pasti tidak perlu\n
+tanpa berkatapun pasti kamu tau\n
+tetes air mataku bukan berarti aku sedih\n
+tatapan tajamku bukan berarti aku benci kamu\n
+satu pesan aku buat kamu jangan lupa bahagia" />
+
+</LinearLayout>

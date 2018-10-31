@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CategoryFragment_1">
+
+    <!-- TODO: Update blank fragment layout -->
+   <Button
+       android:id="@+id/btn_puisi"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Puisi"
+       android:layout_marginBottom="15dp"/>
+    <Button
+        android:id="@+id/btn_curahan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Curahan Hati"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:id="@+id/btn_kehidupan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kehidupan"
+        android:layout_marginBottom="15dp"/>
+
+
+</LinearLayout>

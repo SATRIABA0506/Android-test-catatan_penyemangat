@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".DialogFragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Puisi : "
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+    <RadioGroup
+        android:id="@+id/rgOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rbUntukmu"
+            android:text="Untukmu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+        <RadioButton
+            android:id="@+id/rbNegri"
+            android:text="Negri haha hihi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+        <RadioButton
+            android:id="@+id/rbNama"
+            android:text="Nama dan Pertanda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnTutup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tutup"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="4dp"/>
+        <Button
+            android:id="@+id/btnPilih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilih"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="4dp"/>
+    </LinearLayout>
+</LinearLayout>

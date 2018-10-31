@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Untukmu">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtuntukmu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="          Reminder!
+
+Langit tak selalu cerah
+gelap bukan berarti kelam
+hari berganti mengikuti arah jarum jam
+redup dan terang hanya isyarat
+denganmu hariku rasakan berbeda
+denganmu bahagiaku terkenang
+lukis hari dengan indah
+warna tak selalu sama
+ceritaku dan ceritamu sungguh berbeda
+denganmu ku berharap
+dapat menciptakan hari yang indah
+dengan ceritaku dan ceritamu
+hidupmu dan hidupku menjadi kita" />
+
+</FrameLayout>
